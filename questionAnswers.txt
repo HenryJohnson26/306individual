@@ -1,0 +1,9 @@
+What are 3 good practices related to exception handling?
+1. It is a good idea to use checked exceptions when user input errors could be made
+since you are forced to handle the exception and you wouldn't want your user to see
+an ugly error message.
+
+2.It is good practice to printStackTrace() so that you can follow an error back to its
+root.
+
+3.Use
